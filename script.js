@@ -5,7 +5,7 @@ var playlistA = [
     { path: 'https://github.com/iagoicente/iagoicente.github.io/raw/main/musica%202.mp3', image: 'caminho/da/imagem2.jpg' },
     { path: 'https://github.com/iagoicente/iagoicente.github.io/raw/main/musica%203.mp3', image: 'caminho/da/imagem3.jpg' },
     { path: 'https://github.com/iagoicente/iagoicente.github.io/raw/main/musica%204.mp3', image: 'caminho/da/imagem4.jpg' },
-    { path: 'https://github.com/iagoicente/iagoicente.github.io/raw/main/musica%205.mp3', image: 'caminho/da/imagem5.jpg' }
+   
   ];
 
 var playlistB = [
