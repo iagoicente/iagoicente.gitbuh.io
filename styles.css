@@ -80,7 +80,7 @@ main {
 
 /* Ajuste para dispositivos móveis */
 .player-container {
-    width: 10%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -105,7 +105,7 @@ button {
 }
 
 button:hover {
-    background-color: #00ff00;
+    background-color: blue;
     color: white;
 }
 
