@@ -4,8 +4,7 @@ var playlistA = [
     { path: 'https://github.com/iagoicente/iagoicente.github.io/raw/main/musica%201.mp3', image: 'https://uploaddeimagens.com.br/images/004/683/014/full/10363702.jpg?1701807659' },
     { path: 'https://github.com/iagoicente/iagoicente.github.io/raw/main/musica%202.mp3', image: 'https://uploaddeimagens.com.br/images/004/683/016/full/Starship_Artemis_Lua.jpg?1701807733' },
     { path: 'https://github.com/iagoicente/iagoicente.github.io/raw/main/musica%203.mp3', image: 'https://uploaddeimagens.com.br/images/004/683/019/full/Pedra_Bonita_by_diego_Baravelli.jpg?1701807943' },
-    { path: 'https://github.com/iagoicente/iagoicente.github.io/raw/main/musica%204.mp3', image: 'https://uploaddeimagens.com.br/images/004/683/021/full/17799090_1088150684663452_6294768116898235799_n.jpg?1701808042' },
-   
+    { path: 'https://github.com/iagoicente/iagoicente.github.io/raw/main/musica%204.mp3', image: 'https://uploaddeimagens.com.br/images/004/683/021/full/17799090_1088150684663452_6294768116898235799_n.jpg?1701808042' }
   ];
 
 var playlistB = [
