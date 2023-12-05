@@ -136,7 +136,4 @@ button:hover {
         text-align: center; /* Centraliza o texto dentro da playlist */
     }
 
-    .music-box {
-        width: 100%; /* Ocupa 100% da largura em dispositivos móveis */
-    }
 }
