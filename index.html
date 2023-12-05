@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site de Músicas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div id="content">
+        <header>
+            <h1>Musicas da GM</h1>
+        </header>
+
+        <main>
+            
+            <div class="playlist" id="playlistA">
+                <h2>Músicas DJ Abrãn</h2>
+                <div class="music-box" onclick="changeTrack(0)">unknow</div>
+                <div class="music-box" onclick="changeTrack(1)">unknow</div>
+                <div class="music-box" onclick="changeTrack(3)">unknow</div>
+                <div class="music-box" onclick="changeTrack(4)">unknow</div>
+                <div class="music-box" onclick="changeTrack(5)">unknow</div>
+                <a href="https://soundcloud.com/eduardo-alves-franca" class="soundcloud-button" target="_blank">
+                    <img src="https://uploaddeimagens.com.br/images/004/682/954/full/https-edmcom-image-mtcymzyzndexmze5otu3mjqx-soundcloud.jpg?1701803647" alt="SoundCloud">
+                   
+                  </a>
+            </div>
+            
+
+            <div class="player-container">
+                <img id="albumImage" src="" alt="">
+                <audio id="audioPlayer" controls></audio>
+
+                <div>
+                    <button class="prev-btn" onclick="prevTrack()"></button>
+                    <button class="play-btn" onclick="playPause()"></button>
+                    <button class="next-btn" onclick="nextTrack()"></button>
+                </div>
+
+                <div id="trackTime"></div>
+            </div>
+
+            <div class="playlist" id="playlistB">
+                <h2>Playlist B</h2>
+                <div class="music-box" onclick="changeTrack(6)">Música 4</div>
+                <div class="music-box" onclick="changeTrack(7)">Música 5</div>
+                <div class="music-box" onclick="changeTrack(8)">Música 6</div>
+                
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
