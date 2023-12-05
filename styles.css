@@ -121,98 +121,13 @@ button:hover {
 #trackTime {
     margin-top: 10px;
 }
-@media screen and (max-width: 700px){
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background: white;
-        display: flex;
-        flex-direction: column;
-        align-items: stretch;
-        height: 100vh;
-    }
-    
-    #soundcloud-button {
-        background-color: #fff;
-    }
-    
-    #content {
-        padding: 20px;
-        text-align: center;
-    }
-    
-    header {
-        background-color: #333;
-        color: white;
-        padding: 10px;
-        margin-bottom: 20px;
-    }
-    
+@media only screen and (max-width: 600px) {
     main {
-        display: flex;
-        flex-direction: column; /* Alterado para empilhar os elementos em dispositivos móveis */
-        align-items: center;
+        align-items: stretch; /* Volta para esticar os itens em dispositivos móveis */
     }
-    
-    .playlist {
-        width: 80%; /* Alterado para ocupar 80% da largura em dispositivos móveis */
-        background-color: black;
-        border: 2px solid #00ff00;
-        border-radius: 10px;
-        margin: 10px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 10px;
-        color: white;
-    }
-    
-    .music-box {
-        width: 100%; /* Alterado para ocupar 100% da largura em dispositivos móveis */
-    }
-    
+
     .player-container {
-        width: 80%; /* Alterado para ocupar 80% da largura em dispositivos móveis */
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        width: 80%; /* Ou a largura desejada para dispositivos móveis */
+        margin: 0 auto; /* Adiciona margem automática para centralizar */
     }
-    
-    img {
-        width: 100%;
-        max-width: 200px;
-        margin-top: 10px;
-    }
-    
-    button {
-        margin-top: 10px;
-        margin-right: 10px;
-        background-color: white;
-        color: black;
-        border: none;
-        padding: 10px;
-        border-radius: 5px;
-        cursor: pointer;
-        transition: background-color 0.3s ease, color 0.3s ease;
-    }
-    
-    button:hover {
-        background-color: #00ff00;
-        color: white;
-    }
-    
-    /* Adicionado estilo para dispositivos móveis */
-    @media only screen and (max-width: 600px) {
-        main {
-            align-items: stretch; /* Volta para esticar os itens em dispositivos móveis */
-        }
-    
-        .playlist,
-        .player-container {
-            width: 100%; /* Ocupa 100% da largura em dispositivos móveis */
-        }
-    }
-    
-    
 }
