@@ -122,12 +122,14 @@ button:hover {
     margin-top: 10px;
 }
 @media only screen and (max-width: 600px) {
-    main {
-        align-items: stretch; /* Volta para esticar os itens em dispositivos móveis */
+   main {
+        align-items: center; /* Centraliza os itens em dispositivos móveis */
     }
 
+    .playlist,
     .player-container {
         width: 80%; /* Ou a largura desejada para dispositivos móveis */
         margin: 0 auto; /* Adiciona margem automática para centralizar */
     }
+}
 }
