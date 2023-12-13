@@ -17,10 +17,8 @@ body {
     padding: 20px;
     text-align: center;
 }
-iframe {
-    width: 100%;
-    height: 550px; 
-}
+
+
 
 header {
     background-color: blue;
@@ -63,6 +61,8 @@ main {
     margin: 0;
 }
 
+
+
 .music-box {
     width: 80%;
     height: 50px;
@@ -77,6 +77,11 @@ main {
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
+iframe {
+    width: 100%;
+    height: 500px; /* Remova a altura fixa */
+}
+
 
 .music-box:hover {
     background-color: blue;
@@ -89,6 +94,7 @@ main {
     flex-direction: column;
     align-items: center;
 }
+
 
 img {
     width: 100%;
@@ -150,3 +156,8 @@ button:hover {
         margin: 0 auto; /* Adiciona margem automática para centralizar */
     }
 }
+iframe {
+    height: 550px; /* Adicione a altura fixa para dispositivos maiores conforme necessário */
+}
+
+
