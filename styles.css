@@ -13,6 +13,7 @@ iframe {
     height: 500px; 
 }
 
+
 #soundcloud-button {
     background-color: #fff;
 }
@@ -23,6 +24,17 @@ iframe {
 }
 
 
+.radio-icon {
+    width: 50px; 
+    height: auto;
+    margin-right: 10px;
+}
+
+
+.nova-radio-icon {
+    width: 50px; 
+    height: auto;
+}
 
 header {
     background-color: blue;
@@ -31,14 +43,14 @@ header {
     margin-bottom: 20px;
     display: flex;
     align-items: center;
-    justify-content: center; /* Centraliza os itens horizontalmente */
+    justify-content: center; 
     text-align: center;
 }
 
 .logo {
-    width: 50px; /* Largura desejada da imagem */
-    height: auto; /* Altura automática para manter a proporção */
-    margin-right: 10px; /* Adiciona uma margem à direita para separar a imagem do título */
+    width: 50px; 
+    height: auto; 
+    margin-right: 10px; 
 }
 
 
@@ -149,11 +161,11 @@ button:hover {
 
 @media only screen and (max-width: 600px) {
     main {
-        align-items: stretch; /* Volta para esticar os itens em dispositivos móveis */
+        align-items: stretch; 
     }
 
     .player-container {
-        width: 80%; /* Ou a largura desejada para dispositivos móveis */
-        margin: 0 auto; /* Adiciona margem automática para centralizar */
+        width: 80%; 
+        margin: 0 auto; 
     }
 }
