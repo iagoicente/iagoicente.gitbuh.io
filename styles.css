@@ -8,6 +8,10 @@ body {
     align-items: stretch;
     height: 100vh;
 }
+iframe {
+    width: 105%;
+    height: 500px; 
+}
 
 #soundcloud-button {
     background-color: #fff;
@@ -77,17 +81,14 @@ main {
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
-iframe {
-    width: 100%;
-    height: 500px; /* Remova a altura fixa */
-}
+
 
 
 .music-box:hover {
     background-color: blue;
 }
 
-/* Ajuste para dispositivos móveis */
+
 .player-container {
     width: 50%;
     display: flex;
@@ -145,7 +146,7 @@ button:hover {
     margin-top: 10px;
 }
 
-/* Ajuste para dispositivos móveis */
+
 @media only screen and (max-width: 600px) {
     main {
         align-items: stretch; /* Volta para esticar os itens em dispositivos móveis */
@@ -156,8 +157,3 @@ button:hover {
         margin: 0 auto; /* Adiciona margem automática para centralizar */
     }
 }
-iframe {
-    height: 550px; /* Adicione a altura fixa para dispositivos maiores conforme necessário */
-}
-
-
